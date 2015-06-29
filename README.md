@@ -51,4 +51,5 @@ Let's keep writing more Perl! (^_^)
 <b>Related links:</b>
 <br>
 [1] <a href="http://www.cpan.org/src/README.html">Perl source</a><br>
-[2] <a href="http://perldoc.perl.org/">Perl documentation hub</a>
+[2] <a href="http://perldoc.perl.org/">Perl documentation hub</a> <br>
+[3] <a href="https://www.perl.org/books/library.html">Perl - Online Library</a>
