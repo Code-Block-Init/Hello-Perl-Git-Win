@@ -31,5 +31,5 @@ if($x==1) {
 } elsif($x==2) {
 	print "See you soon! (^_^)";
 } else {
-	print "Error! Try again."
+	print "Error! Try again.";
 }
