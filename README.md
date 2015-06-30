@@ -35,8 +35,11 @@ Next is setting environmental variables in Windows. <br>
 <code>Path: D:\perl-5.22.0</code><br>
 <br>
 <b>Step 5:</b>
-Running <a href="https://github.com/dragonwolverines/Getting-Started-Perl-Git/blob/master/getting-started/hello_world.pl">hello world</a> program
+Running <a href="https://github.com/dragonwolverines/Getting-Started-Perl-Git/blob/master/getting-started/hello_world.pl">hello world</a> program <br>
+I use simple <code>Sublime Text 3</code> for coding. <br>
+You can also use <code>notepad</code> or any code editors and save it in <code>.pl</code> extension.
 ```pl
+# hello_world.pl
 print "Hello World\n";
 ```
 ```sh
