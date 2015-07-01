@@ -71,7 +71,7 @@ You can also use <code>notepad</code> or any code editors and save it in <code>.
 print "Hello World\n";
 ```
 ```sh
-dell@DELL3521 /d/perl-5.22.0
+dell@DELL3521 /d/perl-5.22.0/perl/bin (master)
 $ perl getting-started/hello_world.pl
 Hello World
 ```
