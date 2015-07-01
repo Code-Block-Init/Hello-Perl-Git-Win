@@ -57,6 +57,8 @@ Complete documentation for Perl, including FAQ lists, should be found on
 this system using "man perl" or "perldoc perl".  If you have access to the
 Internet, point your browser at http://www.perl.org/, the Perl Home Page.
 ```
+I guess that there is an <code>example</code> folder inside <code>bin</code> folder.<br>
+That example folder has some stuffs that i added in <a href="https://github.com/dragonwolverines/Hello-Perl-Git-Win/tree/master/getting-started">getting-started</a>.<br><br>
 <b>Step 4:</b><br>
 Next is setting environmental variables in Windows. <br>
 <code>This PC -> Properties -> Advanced system settings -> Environment variables</code><br>
@@ -72,7 +74,7 @@ print "Hello World\n";
 ```
 ```sh
 dell@DELL3521 /d/perl-5.22.0/perl/bin (master)
-$ perl getting-started/hello_world.pl
+$ perl examples/hello_world.pl
 Hello World
 ```
 Ah... That's it.. <br>
