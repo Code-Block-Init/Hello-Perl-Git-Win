@@ -29,6 +29,34 @@ Complete documentation for Perl, including FAQ lists, should be found on
 this system using "man perl" or "perldoc perl".  If you have access to the
 Internet, point your browser at http://www.perl.org/, the Perl Home Page.
 ```
+This is the old version that Git uses for Perl in default. <br>
+To update into <code>5.22.0</code> from <code>5.8.8</code>, Here are some shortcuts:
+```
+1. Goto this link:
+(https://github.com/dragonwolverines/Hello-Perl-Git-Win/tree/master/add-ons)
+and download perl.zip
+2. Unzip and extract inside perl-5.22.0 folder (location)
+```
+Here is how i did it:
+```sh
+dell@DELL3521 /
+$ cd "/d/perl-5.22.0/perl/bin"
+
+dell@DELL3521 /d/perl-5.22.0/perl/bin (master)
+$ perl -v
+
+This is perl 5, version 22, subversion 0 (v5.22.0) built for MSWin32-x64-multi-t
+hread
+
+Copyright 1987-2015, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at http://www.perl.org/, the Perl Home Page.
+```
 <b>Step 4:</b><br>
 Next is setting environmental variables in Windows. <br>
 <code>This PC -> Properties -> Advanced system settings -> Environment variables</code><br>
