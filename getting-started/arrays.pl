@@ -46,7 +46,9 @@ my $last=pop @usernames;
 print "pop: $last\n";
 print Dumper \@usernames;
 
+print "\n\n"; # adding line spaces
+
 # shift
 my $first=shift @usernames;
-print "shift: $first";
+print "shift: $first\n";
 print Dumper \@usernames;
