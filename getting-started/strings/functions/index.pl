@@ -11,4 +11,6 @@ print "\n";
 print index $mnc, 'destroyers';
 print "\n";
 print index $mnc, 'betrayers';
+print "\n";
+print index $mnc, 'use and throw';
 #fini
