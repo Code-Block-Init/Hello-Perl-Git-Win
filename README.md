@@ -62,7 +62,7 @@ That example folder has some stuffs that i added in <a href="https://github.com/
 <b>Step 4:</b><br>
 Next is setting environmental variables in Windows. <br>
 <code>This PC -> Properties -> Advanced system settings -> Environment variables</code><br>
-<code>Path: D:\perl-5.22.0</code><br>
+Path: <code>D:\perl-5.22.0\perl\bin</code><br>
 <br>
 <b>Step 5:</b>
 Running <a href="https://github.com/dragonwolverines/Getting-Started-Perl-Git/blob/master/getting-started/hello_world.pl">hello world</a> program <br>
