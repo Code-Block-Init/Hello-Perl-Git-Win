@@ -1,3 +1,0 @@
-```
-Some more crucial basics ;)
-```
