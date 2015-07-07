@@ -17,6 +17,27 @@ while(my $line=<$ig>) {
 		$count{$str}++;
 	}
 }
+
+# storing results according to ASCII table
 foreach my $str(sort keys %count) {
 	printf "%-31s %s\n",$str,$count{$str};
+}
+
+print "\n";
+
+# sorting the results according to frequency
+foreach my $str2(reverse sort {$count{$a}<=>$count{$b}} keys %count) {
+	printf "%-31s %s\n",$str2,$count{$str2};
+}
+
+print "\n";
+
+# store the number of occurences in each string
+my @strr = ('ashu','meow','meow','ashumeow');
+my %count2;
+foreach my $str3(@strr) {
+	$count2{$str3}++;
+}
+foreach my $str3(sort keys %count2) {
+	printf "%-31s %s\n",$str3,$count2{$str3};
 }
