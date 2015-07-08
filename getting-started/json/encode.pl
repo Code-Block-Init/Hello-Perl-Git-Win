@@ -29,5 +29,5 @@ my $ashu = {
 		planet => 'Earth'
 	},
 };
-$ashu=encode_json $ashu;
-print $ashu;
+my $ashumeow=encode_json $ashu;
+print $ashumeow;
