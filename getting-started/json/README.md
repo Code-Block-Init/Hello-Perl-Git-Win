@@ -8,7 +8,7 @@ $cd "/d/perl-5.22.0/perl/site/lib"
 $git clone https://github.com/ashumeow/Cpanel.git
 ```
 <b>Step 2: Write a simple JSON program</b> <br>
-This is <a href="">JSON Encoding</a> program.
+This is <a href="https://github.com/dragonwolverines/Hello-Perl-Git-Win/blob/master/getting-started/json/encode.pl">JSON Encoding</a> program.
 ```pl
 use strict;
 use warnings;
@@ -43,6 +43,8 @@ my $ashu = {
 my $ashumeow=encode_json $ashu;
 print $ashumeow;
 ```
+There is also <a href="https://github.com/dragonwolverines/Hello-Perl-Git-Win/blob/master/getting-started/json/decode.pl"> json decoding</a> available.
+<br><br>
 <b>Step 3: Execution</b>
 ```sh
 dell@DELL3521 /d/perl-5.22.0/perl/bin (master)
