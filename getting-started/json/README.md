@@ -21,7 +21,6 @@ use JSON::XS ();
 my $ashu = {
 	name => 'Aswini S',
 	email => 'ashumeow@live.com',
-	gender => 'weak female',
 	Activities => [
 		'read',
 		'write',
