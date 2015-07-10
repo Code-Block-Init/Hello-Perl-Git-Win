@@ -20,3 +20,12 @@ print $taste{'cheese'};
 print "\n";
 print $taste{$mango};
 print "\n";
+
+# iteration
+my @fun = keys %taste;
+for my $game(@fun) {
+	print "'$grapes' are $taste{$grapes}\n";
+}
+
+# calculating hash size
+print scalar keys %taste;
