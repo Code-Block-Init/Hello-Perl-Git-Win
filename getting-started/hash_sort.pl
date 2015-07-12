@@ -34,3 +34,10 @@ print "\n";
 foreach my $distance (sort values %planets) {
     say $distance;
 }
+
+print "\n";
+
+# sorting names according to values
+foreach my $sort (sort { $planets{$a} <=> $planets{$b} } keys %planets) {
+    printf "%-8s %s\n", $sort, $planets{$sort};
+}
