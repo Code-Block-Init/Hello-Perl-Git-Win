@@ -5,11 +5,11 @@ use 5.022;
 use Data::Dumper qw(Dumper);
 
 my %hobbies;
-$hobbies{"everytime"}{reading}=80;
-$hobbies{"everytime"}{writing}=70;
-$hobbies{"everytime"}{coding}=75;
+$hobbies{"everytime"}{reading}[1]=80;
+$hobbies{"everytime"}{writing}[2]=70;
+$hobbies{"everytime"}{coding}[3]=75;
 $hobbies{"mostly"}{music}=65;
-$hobbies{"sometimes"}{cardio}=50;
+$hobbies{"sometimes"}{cardio}{strength}=50;
 
 print Dumper \%hobbies;
 print "-------------------\n";
